@@ -1,12 +1,13 @@
-import Image from "next/image";
-import {Button, buttonVariants} from "@/components/ui/button";
+import { Container, Title, TopBar } from "@/components/shared";
+import React from "react";
 
 export default function Home() {
-    return (
-        <>
-            <h1>Home</h1>
-            <Button variant={"outline"}>Корзинка</Button>
-        </>
-    )
-        ;
+  return (
+    <>
+      <Container className={"mt-10"}>
+        <Title className={"font-extrabold"} text={"Все пиццы"} size={"lg"} />
+      </Container>
+      <TopBar />
+    </>
+  );
 }
