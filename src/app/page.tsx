@@ -6,7 +6,6 @@ export default function Home() {
     <>
       <Container className={"mt-10"}>
         <Title className={"font-extrabold"} text={"Все пиццы"} size={"lg"} />.
-        <div>TESTIING</div>
       </Container>
       <TopBar />
     </>
