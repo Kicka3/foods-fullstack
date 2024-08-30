@@ -1,3 +1,4 @@
+export { RangeSlider } from "./range-slider";
 export { Skeleton } from "./skeleton";
 export { Checkbox } from "./checkbox";
 export { Popover } from "./popover";
