@@ -17,8 +17,8 @@ export const Categories = (props: TCategories) => {
     "Кофе",
     "Напитки",
     "Десерты",
-    "Любят дети",
-    "Сосусы",
+    // "Любят дети",
+    // "Сосусы",
   ];
   const activeIndex = 0;
 
