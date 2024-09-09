@@ -1,3 +1,4 @@
+import { CheсkboxFiltersGroup } from "@/components/shared/chekbox-filters-group";
 import { FilterCheckbox } from "@/components/shared/filter-checkbox";
 import { Input, RangeSlider } from "@/components/ui";
 import { Title } from "@/components/shared/title";
@@ -34,6 +35,140 @@ export const Filters = (props: TFilters) => {
 
         <RangeSlider step={10} min={0} max={4000} value={[0, 4000]} />
       </div>
+
+      <CheсkboxFiltersGroup
+        title={"Ингредиенты"}
+        defaultItems={[
+          {
+            text: "Красный лук",
+            value: "1",
+          },
+          {
+            text: "Томаты",
+            value: "2",
+          },
+          {
+            text: "Солёные огурчики",
+            value: "3",
+          },
+          {
+            text: "Сырный соус",
+            value: "4",
+          },
+          {
+            text: "Моцарелла",
+            value: "5",
+          },
+          {
+            text: "Лобстер",
+            value: "6",
+          },
+          {
+            text: "Салями",
+            value: "7",
+          },
+          {
+            text: "Красный перец",
+            value: "8",
+          },
+        ]}
+        className={"mt-5"}
+        items={[
+          {
+            text: "Красный лук",
+            value: "1",
+          },
+          {
+            text: "Томаты",
+            value: "2",
+          },
+          {
+            text: "Солёные огурчики",
+            value: "3",
+          },
+          {
+            text: "Сырный соус",
+            value: "4",
+          },
+          {
+            text: "Моцарелла",
+            value: "5",
+          },
+          {
+            text: "Лобстер",
+            value: "6",
+          },
+          {
+            text: "Салями",
+            value: "7",
+          },
+          {
+            text: "Красный перец",
+            value: "8",
+          },
+          {
+            text: "Сырный соус",
+            value: "4",
+          },
+          {
+            text: "Моцарелла",
+            value: "5",
+          },
+          {
+            text: "Лобстер",
+            value: "6",
+          },
+          {
+            text: "Салями",
+            value: "7",
+          },
+          {
+            text: "Красный перец",
+            value: "8",
+          },
+          {
+            text: "Сырный соус",
+            value: "4",
+          },
+          {
+            text: "Моцарелла",
+            value: "5",
+          },
+          {
+            text: "Лобстер",
+            value: "6",
+          },
+          {
+            text: "Салями",
+            value: "7",
+          },
+          {
+            text: "Красный перец",
+            value: "8",
+          },
+          {
+            text: "Сырный соус",
+            value: "4",
+          },
+          {
+            text: "Моцарелла",
+            value: "5",
+          },
+          {
+            text: "Чеснок",
+            value: "6",
+          },
+          {
+            text: "Салями",
+            value: "7",
+          },
+          {
+            text: "Красный перец",
+            value: "8",
+          },
+        ]}
+        limit={6}
+      />
     </div>
   );
 };
