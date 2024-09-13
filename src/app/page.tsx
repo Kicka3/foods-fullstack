@@ -89,14 +89,6 @@ export default function Home() {
                     price: 550,
                     items: [{ price: 550 }],
                   },
-                  {
-                    id: 9,
-                    name: "Чизбургер-пицца",
-                    imageUrl:
-                      "https://media.dodostatic.net/image/r:292x292/11EF438E93884BFEBFE79D11095AE2D4.avif",
-                    price: 550,
-                    items: [{ price: 550 }],
-                  },
                 ]}
               />
 
