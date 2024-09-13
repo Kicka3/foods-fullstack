@@ -51,9 +51,9 @@ export const CheсkboxFiltersGroup = (props: TCheckboxFiltersGroup) => {
       {showAll && (
         <div className={"mb-5"}>
           <Input
-            onChange={onChangeSearchInput}
-            placeholder={searchInputPlaceholder}
             className={"bg-gray-50, border-none"}
+            placeholder={searchInputPlaceholder}
+            onChange={onChangeSearchInput}
           />
         </div>
       )}

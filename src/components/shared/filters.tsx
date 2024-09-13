@@ -16,8 +16,8 @@ export const Filters = (props: TFilters) => {
       <Title text={"Фильтрация"} className={"mb-5 font-bold"} />
 
       <div className={"flex flex-col gap-4"}>
-        <FilterCheckbox text={"Можно собрать"} value={"1"} />
-        <FilterCheckbox text={"Новинки"} value={"2"} />
+        <FilterCheckbox text={"Можно собрать"} value={"111"} />
+        <FilterCheckbox text={"Новинки"} value={"222"} />
       </div>
 
       <div className={"mt-5 border-y border-y-neutral-100 py-6 pb-7"}>
@@ -26,9 +26,9 @@ export const Filters = (props: TFilters) => {
           <Input
             type={"number"}
             placeholder={"0"}
-            min={0}
-            max={1500}
             defaultValue={0}
+            max={1500}
+            min={0}
           />
           <Input type={"number"} placeholder={"1000"} min={0} max={1500} />
         </div>
@@ -37,6 +37,7 @@ export const Filters = (props: TFilters) => {
       </div>
 
       <CheсkboxFiltersGroup
+        searchInputPlaceholder={"Поиск..."}
         title={"Ингредиенты"}
         defaultItems={[
           {
@@ -108,11 +109,11 @@ export const Filters = (props: TFilters) => {
           },
           {
             text: "Сырный соус",
-            value: "4",
+            value: "99",
           },
           {
             text: "Моцарелла",
-            value: "5",
+            value: "10",
           },
           {
             text: "Лобстер",
@@ -120,51 +121,51 @@ export const Filters = (props: TFilters) => {
           },
           {
             text: "Салями",
-            value: "7",
+            value: "11",
           },
           {
             text: "Красный перец",
-            value: "8",
+            value: "12",
           },
           {
             text: "Сырный соус",
-            value: "4",
+            value: "13",
           },
           {
             text: "Моцарелла",
-            value: "5",
+            value: "14",
           },
           {
             text: "Лобстер",
-            value: "6",
+            value: "15",
           },
           {
             text: "Салями",
-            value: "7",
+            value: "17",
           },
           {
             text: "Красный перец",
-            value: "8",
+            value: "18",
           },
           {
             text: "Сырный соус",
-            value: "4",
+            value: "16",
           },
           {
             text: "Моцарелла",
-            value: "5",
+            value: "19",
           },
           {
             text: "Чеснок",
-            value: "6",
+            value: "20",
           },
           {
             text: "Салями",
-            value: "7",
+            value: "21",
           },
           {
             text: "Красный перец",
-            value: "8",
+            value: "22",
           },
         ]}
         limit={6}

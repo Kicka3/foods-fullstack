@@ -4,7 +4,7 @@ import { Plus } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-type TProductCard = {
+export type TProductCard = {
   className?: string;
   imageUrl: string;
   price: number;
