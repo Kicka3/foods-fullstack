@@ -1,4 +1,5 @@
 export { FilterCheckbox } from "./filter-checkbox";
+export { SearchInput } from "./search-input";
 export { Categories } from "./categories";
 export { SortPopup } from "./sort-popup";
 export { Container } from "./container";
