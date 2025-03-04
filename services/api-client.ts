@@ -4,4 +4,7 @@ export const Api = {
   products,
 };
 
+const bla = () => {
+  return {};
+};
 //Удалить это!
